@@ -11,10 +11,10 @@
 1- Run the command: npm build run
 
 ## Tools
-React 
-Jest
-ESlint
-Bootstrap
+# React 
+# Jest
+# ESlint
+# Bootstrap
 
 ### Hours Spend
 8 hours
