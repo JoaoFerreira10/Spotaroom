@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomeList component test it matches with the snapshot 1`] = `
+<div>
+  No data
+</div>
+`;
+
+exports[`MenuBar component test it matches with the snapshot 1`] = `
+<div>
+  No data
+</div>
+`;

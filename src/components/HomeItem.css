@@ -1,0 +1,88 @@
+.home-item{
+    margin-bottom: 8px;
+    border: 1px solid #a2a2a2;
+}
+
+.center {
+    display: block;
+    margin: auto;
+    width: 75%;
+    margin-top: 5px;
+}
+
+.center:hover{
+    width: 77%;
+    box-shadow: 5px 5px 5px #a2a2a2;
+}
+
+.home-body {
+    padding: 1.5rem;
+}
+
+.card-title {
+    display: inline;
+}
+
+.price {
+    float: right;
+    background: #343133;
+    color: #fcd103;
+    padding: 3px 8px;
+    border-radius: 10px;
+}
+
+.home-options {
+    padding-top: 3%;
+    padding-bottom: 1%;
+    text-align: right;
+    margin: 5px;
+}
+
+.home-options a {
+    margin: 0 5px;
+}
+
+.btn-options {
+    color: white !important;
+    border-radius: 0px !important;
+}
+.btn-book {
+    background: #3d8f31 !important;
+    border-color: #3d8f31 !important;
+    box-shadow: 0px 5px 1px #146a20;
+}
+
+.btn-details {
+    background: #F09218 !important;
+    border-color: #F09218 !important;
+    box-shadow: 0px 5px 1px rgb(202, 124, 21);
+}
+
+@media screen and (max-width: 991px) {
+    .center {
+        width: 100%;
+        margin-top: 15px;
+    }
+
+    .center:hover {
+        width: 102%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .btn-book {
+        width: 100%;
+    }
+
+    .btn-details {
+        display: none !important;
+    }
+
+    .center {
+        width: 85%;
+    }
+
+    .center:hover {
+        width: 87%;
+    }
+}
